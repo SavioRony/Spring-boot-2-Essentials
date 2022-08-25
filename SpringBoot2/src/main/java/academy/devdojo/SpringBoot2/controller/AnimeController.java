@@ -32,7 +32,7 @@ public class AnimeController {
     }
     @GetMapping(path = "/all")
     public ResponseEntity<List<Anime>> listAll(){
-        return ResponseEntity.ok(animeService.listAll()) ;
+        return ResponseEntity.ok(animeService.listAllNonPageable()) ;
     }
 
     @GetMapping(path = "/{id}")
