@@ -6,7 +6,7 @@ import academy.devdojo.SpringBoot2.requests.AnimePutRequestBody;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
-@Mapper
+@Mapper(componentModel = "spring")
 public interface AnimeMapper {
     AnimeMapper INSTANCE = Mappers.getMapper(AnimeMapper.class);
     Anime toAnime(AnimePostRequestBody animePostRequestBody);

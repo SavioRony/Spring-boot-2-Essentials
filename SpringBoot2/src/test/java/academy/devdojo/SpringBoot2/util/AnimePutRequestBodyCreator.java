@@ -4,10 +4,10 @@ import academy.devdojo.SpringBoot2.requests.AnimePutRequestBody;
 
 public class AnimePutRequestBodyCreator {
 
-    public static AnimePutRequestBody createAnimeTobeSaved(){
+    public static AnimePutRequestBody createAnimePutRequestBody(){
         return AnimePutRequestBody.builder()
-                .id(AnimeCreator.createAnimeTobeSaved().getId())
-                .name(AnimeCreator.createAnimeTobeSaved().getName())
+                .id(AnimeCreator.createValidUpdatedAnime().getId())
+                .name(AnimeCreator.createValidUpdatedAnime().getName())
                 .build();
     }
 }
