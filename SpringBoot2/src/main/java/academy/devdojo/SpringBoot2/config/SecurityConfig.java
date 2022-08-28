@@ -35,6 +35,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 //                .and()
 
                 .authorizeRequests()
+                .antMatchers("/animes/admin/**").hasRole("ADMIN") // Sempre o mais restritivo deve vim primeiro
+                .antMatchers("/animes/**").hasRole("USER")
                 .anyRequest()
                 .authenticated()
                 .and()
