@@ -4,7 +4,11 @@ Curso Spring boot 2 Essentials Dev Dojo.
 - Spring JPA com MySql ultilizando Docker.
 - Mapstruct.
 - Handler.
-- Testes Unitarios (JPA, Service, Controller).
+- Testes Unitarios 
+  - JPA
+  - Service
+  - Controller
+  - Integração
 - Tratamento de erro.
 - API rest.
 - Spring Security
