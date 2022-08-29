@@ -7,9 +7,12 @@ Curso Spring boot 2 Essentials Dev Dojo.
 - Tratamento de erro.
 - Handler.
 - Testes Unitarios.
-  - JPA
-  - Service
-  - Controller
-  - Integração
+  - JPA.
+  - Service.
+  - Controller.
+  - Integração.
 - Spring Security.
-  - Autenticação em memoria
+  - Autenticação em memoria.
+  - CSRF token.
+  - Autenticação com usuário em banco de dados.
+  - Proteção de URL com Antmatcher.
